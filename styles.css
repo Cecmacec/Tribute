@@ -1,0 +1,196 @@
+body{
+    background: radial-gradient(#0033ff,#0099ff,#ffffff);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+    color:#000000;
+
+}
+
+main{
+    width: 80%;
+    background:#ffffff;
+    margin:auto;
+   
+   
+}
+
+header{
+    width: 100%;
+    background: radial-gradient(#99ccff,#ffffff);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header > fieldset{
+    margin-top:30px;
+    margin-left:30px;
+    margin-right: 30px;
+    border-style: none;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+   color:#0000cc;
+   text-shadow: 1px 1px 2px black, 0 0 50px yellow, 0 0 5px darkorange;
+  }
+
+  h1::first-letter {
+    color:#0000cc;
+    font-size: xx-large;
+    font-size: 80px;
+   }
+ 
+
+nav > ul {
+display:flex;
+justify-content:space-around;
+height: 50%;
+font-size: 25px;
+margin-top:-15px;}
+nav> ul > li {
+    color:#0033ff;
+    text-shadow: 1px 1px 2px black, 0 0 10px yellow, 0 0 5px darkorange;
+    font-size: 25px;
+    font-weight:bold;
+}
+nav{padding-bottom: 5px;}
+    
+
+figure{
+    display:flex;
+    flex-wrap: nowrap;
+    margin:0 auto;
+}
+
+
+img {
+
+    display:block;
+}
+
+#image {
+    margin:0 auto;border-radius: 10%;
+            
+            height: auto;
+            
+            max-width: 100%;
+}
+
+
+        
+
+          
+
+fieldset{
+    border-color:yellow;
+    font-style:oblique;
+    border-style: none;
+}
+
+figcaption{
+
+    display:flex;
+    justify-content:space-around;
+    font-size: 40px; 
+    border-radius: 0.1%;
+    background: radial-gradient(#99ccff,#ffffff);
+    
+}
+
+section{
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+section > ul{
+    border-style:dotted;
+    border-left:thick dotted;
+    border-right:thick dotted;
+    border-top-width: 15px;
+    border-top-style: solid;
+    color: #0000cc;
+    border-bottom-style: none;
+    margin-left: -35%;
+    margin-right: -35%;
+
+    
+
+}
+
+section > ul >li {
+  
+    color: black;
+    font-size: 20px; 
+    margin-right: -5%;
+    line-height: 2;
+   
+
+}
+
+h3{
+text-align: center;
+
+
+}
+
+fieldset{
+    text-align:justify;
+
+    
+}
+blockquote{
+    display:flex;
+    justify-content:space-around;
+    font-size: 19px; 
+    border-radius: 25%;
+    background: radial-gradient(#cccc99,#0099ff,#ffffff);
+}
+p{
+
+font-size: 18px; 
+background:blue;
+border-radius: 10%;
+color:white;
+text-align: center;
+font-weight: bold;
+
+}
+
+
+cite{
+
+    font-size: 18px; 
+    color:white;
+    text-align: center;
+    font-weight: bold;
+
+}
+#href{
+    font-size: 5px;
+    text-align: center;
+    border-color:yellow;
+
+
+}
+footer{
+display:grid;
+text-align: center; 
+justify-content:space-around;
+font-size: 20px;
+background:#ffff99;
+color:#000000;
+font-weight: bold;}
+
+
+
+@media(max-width:760px){
+
+    section > ul > li {
+        font-size:9px ;}
+}
+
+
+
